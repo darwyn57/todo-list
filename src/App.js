@@ -2,6 +2,8 @@ import './App.css';
 import React, { useState } from 'react';
 import Todolist from './Todolist';
 import Formulaire from './Formulaire';
+import TestEffect from './TestEffect';
+import Compteur2 from './Compteur2';
 
 
 
@@ -11,7 +13,9 @@ function App() {
       <header className="App-header">
         {/* <Todolist /> */}
         {/* <Formulaire1 /> */}
-        <Formulaire />
+        {/* <Formulaire /> */}
+        {/* <TestEffect /> */}
+        <Compteur2 />
       </header>
     </div>
   );
